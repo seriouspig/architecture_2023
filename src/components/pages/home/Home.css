@@ -1,0 +1,124 @@
+@import "../../../App.css";
+
+.home-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: var(--clr-primary-8);
+  max-width: 1170px;
+  align-items: center;
+}
+
+.image-container {
+  width: 100vw;
+  height: 100vw;
+  background: violet;
+}
+
+
+
+.info-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#Layer_1 {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+  .home-container {
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .image-container {
+    width: 50vw;
+    height: 50vw;
+    max-width: 585px;
+  }
+
+  .info-container {
+    width: 50vw;
+    height: 50vw;
+    max-width: 585px;
+    flex-direction: row;
+  }
+  .landing-image-container {
+    min-width: 600px;
+  }
+
+}
+
+
+.path1 {
+  stroke: black;
+  fill: none;
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  animation: dash1 2s linear;
+  animation-fill-mode: forwards;
+}
+
+.path2 {
+  stroke: black;
+  fill: none;
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  animation: dash1 2s linear;
+  animation-fill-mode: forwards;
+}
+
+.path3 {
+  stroke: black;
+  fill: none;
+  stroke-dashoffset: 1800;
+  stroke-dasharray: 1000;
+  animation: dash1 2s linear;
+  animation-fill-mode: forwards;
+}
+
+.st0 {
+    stroke: black;
+  fill: none;
+  stroke-dashoffset: 1800;
+  stroke-dasharray: 1000;
+  animation: dash1 2s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dash1 {
+  100% {
+    stroke-dashoffset: 2000;
+  }
+}
+
+.landing-image-container {
+  padding: 1rem;
+  padding-top: 2rem;
+  display: block;
+  position: relative;
+}
+
+.static-container {
+  position: absolute;
+  width: 30%;
+  /* border: 1px solid blue; */
+  perspective: 500px;
+  perspective-origin: 0% 50%;  
+  top: 44%;
+  left: 10%;
+  transform: scaleX(1.2);
+}
+
+.static_1 {
+    transform-style: preserve-3d;
+  transform: rotateY(25deg);
+}
+
+.static_1:hover {
+  /* filter: blur(0.5px); */
+  opacity: 0;
+}
+

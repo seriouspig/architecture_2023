@@ -1,0 +1,115 @@
+/*
+=============== 
+Skills
+===============
+*/
+
+@media screen and (min-width: 768px) {
+  .skills-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
+}
+
+.skills {
+  background: var(--clr-primary-10);
+  padding-bottom: 1rem !important;
+}
+.skills h3 {
+  margin-top: 1.5rem ;
+  color: var(--clr-primary-1);
+}
+.skill {
+  margin-bottom: 0rem;
+}
+.skill p {
+  margin-bottom: 0.1rem;
+  text-transform: capitalize;
+  color: var(--clr-primary-1);
+}
+.skill-container {
+  background: var(--clr-white);
+  height: 1rem;
+  width: 100%;
+  border-radius: var(--radius);
+  position: relative;
+}
+.skill-bar {
+  position: relative;
+  height: 1rem;
+}
+.value {
+  /* width: 70%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: 2s ease-out 0s 1 skillsRise;
+  animation-fill-mode: forwards;
+  background: var(--clr-primary-5);
+  height: 100%;
+  width: 50%;
+  border-radius: var(--radius);
+}
+.skill-text-bar {
+  position: relative;
+  height: 1rem;
+  top: -3rem;
+}
+
+.skill-text {
+  position: absolute;
+  animation: 2s ease-out 0s 1 skillsSlide;
+  animation-fill-mode: forwards;
+  transform: translateX(-50%);
+}
+.skill-text-70 {
+  left: 70%;
+}
+.skill-text-80 {
+  left: 80%;
+}
+
+@keyframes skillsRise {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes skillsSlide {
+  0% {
+    left: 0%;
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    left: 100%;
+    opacity: 1;
+  }
+}
+
+/* Scale bar */
+
+.scale-bar {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+}
+
+.skill-level {
+  border-left: 1px dashed black;
+  border-bottom: 1px dashed black;
+  width: 20%;
+  display: block;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.last {
+  border-right: 1px dashed black;
+}

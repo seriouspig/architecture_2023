@@ -1,0 +1,125 @@
+@import "../../App.css";
+
+/*
+=============== 
+Navbar
+===============
+*/
+/* * {
+    border: 1px solid red;
+} */
+
+nav {
+  background: var(--clr-white);
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  height: 72px;
+  transform: translateZ(1000px);
+}
+.nav-container {
+    position: relative;
+    height: 72px;
+    z-index: 1000;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 100;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: scale(1.3);
+}
+.logo {
+  height: 40px;
+}
+.links {
+    position: relative;
+    z-index: 100;
+}
+.links a {
+  color: var(--clr-grey-3);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+  font-weight: bold;
+  margin-left: auto;
+  z-index: 100;
+  position: relative;
+}
+.links a:hover {
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-5);
+  padding-left: 1.5rem;
+}
+.social-icons {
+  display: none;
+}
+.links-container {
+  height: 0;
+  overflow: hidden;
+  background:hsla(210, 36%, 96%, 90%);
+  transition: var(--transition);
+  position: relative;
+  z-index: 100;
+}
+.show-container {
+  height: 10rem;
+  z-index: 100;
+}
+@media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+    background:var(--clr-white);
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: var(--clr-primary-5);
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--clr-primary-7);
+  }
+}
