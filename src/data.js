@@ -47,7 +47,7 @@ export const projects = [
   {
     id: 1,
     url: "https://seriouspig.itch.io/id-efencder",
-    image: idefender_img,
+    image: "https://picsum.photos/id/1018/1000/600/",
     title: "Id-efender",
     info: "A solo project developed as part of my Game Development Course at Edinburgh College. A spin on the 1981 Atari’s classic “Defender”.",
     category: "Games",
@@ -55,7 +55,7 @@ export const projects = [
   {
     id: 2,
     url: "https://millionaires-c4191.web.app",
-    image: millionaires_img,
+    image: "https://picsum.photos/id/1015/1000/600/",
     title: "Millionaires",
     info: "Group project developed during the CodeClan boot camp course. Based on the TV show – 'Who wants to be a millionaire'.",
     category: "Software",
@@ -63,7 +63,7 @@ export const projects = [
   {
     id: 4,
     url: "https://madbatgames.itch.io/grooooarr",
-    image: grooooaar_img,
+    image: "https://picsum.photos/id/1019/1000/600/",
     title: "GROOOOARR",
     info: "Another entry for the itch.io Nokia 3310 game jam. Interesting enemy AI. A full-res version for mobile devces is in the works",
     category: "Games",

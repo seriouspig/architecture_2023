@@ -8,6 +8,7 @@ const Project = (props) => {
         const handleClick = (event) => {
             console.log("Is active is: " + isActive);
             setIsActive(current => !current)
+            props.setGalleryMode()
             
         }
 
@@ -21,7 +22,7 @@ const Project = (props) => {
           <a
             className="btn btn-live"
             onClick={handleClick}
-            href={props.url}
+            // href={props.url}
             target="_blank"
             rel="noreferrer"
           >

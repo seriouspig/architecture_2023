@@ -8,6 +8,7 @@ Footer
   bottom: 0px; */
   width: 100vw;
   background: var(--clr-grey-1);
+  margin-top: 0.5rem;
 }
 .footer {
   text-align: center;

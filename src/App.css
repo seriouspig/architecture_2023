@@ -4,6 +4,7 @@ Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 /*
 =============== 
@@ -196,3 +197,13 @@ p {
 .section-title {
   text-align: center;
 } */
+
+.gallery-container {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: black;
+  height: 100vh;
+}
