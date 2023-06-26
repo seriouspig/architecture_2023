@@ -9,6 +9,7 @@ const Project = (props) => {
             console.log("Is active is: " + isActive);
             setIsActive(current => !current)
             props.setGalleryMode()
+            props.setSelectedProject(props.title)
             
         }
 

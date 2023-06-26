@@ -8,6 +8,7 @@ const Projects = (props) => {
   const [category, setCategory] = useState("All");
   const [selectedProject, setSelectedProject] = useState(null);
   const [galleryMode, setGalleryMode] = useState(false);
+  const [galleryImages, setGalleryImages] = useState([])
 
   useEffect(() => {
     setCategory(props.category);
@@ -23,10 +24,27 @@ const Projects = (props) => {
 
   console.log(isTouchDevice());
 
+  const handleSelectedProject = (val) => {
+    console.log("GETTING SELECTED PROJECT ID")
+    console.log(val)
+
+    let galleryImages = []
+
+for (const project of projects) {
+  if (project.title === val) {
+    galleryImages = project.images;
+    setGalleryImages(galleryImages)
+    break; // Exit the loop since we found the project with ID 12
+  }
+}
+
+    
+  }
+
   return (
     <>
       {galleryMode && (
-        <Gallery disableGalleryMode={() => setGalleryMode(false)} />
+        <Gallery disableGalleryMode={() => setGalleryMode(false)} galleryImages={galleryImages} />
       )}
       <section className="section projects">
         {/* <!-- section title --> */}
@@ -42,15 +60,15 @@ const Projects = (props) => {
               {category === "All" && <div className="underline-2"></div>}
             </div>
             <div onClick={() => setCategory("Games")}>
-              <h2>Games</h2>
+              <h2>MLP</h2>
               {category === "Games" && <div className="underline-2"></div>}
             </div>
             <div onClick={() => setCategory("Software")}>
-              <h2>Software</h2>
+              <h2>Interior</h2>
               {category === "Software" && <div className="underline-2"></div>}
             </div>
             <div onClick={() => setCategory("Arch")}>
-              <h2>Arch</h2>
+              <h2>Facades</h2>
               {category === "Arch" && <div className="underline-2"></div>}
             </div>
           </div>
@@ -76,6 +94,7 @@ const Projects = (props) => {
                   url={project.url}
                   category={project.category}
                   setGalleryMode={() => setGalleryMode(true)}
+                  setSelectedProject={(val) => handleSelectedProject(val)}
                 />
               );
             })}
