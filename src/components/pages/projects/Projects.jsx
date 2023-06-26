@@ -59,17 +59,17 @@ for (const project of projects) {
               <h2>All</h2>
               {category === "All" && <div className="underline-2"></div>}
             </div>
-            <div onClick={() => setCategory("Games")}>
+            <div onClick={() => setCategory("MLP")}>
               <h2>MLP</h2>
-              {category === "Games" && <div className="underline-2"></div>}
+              {category === "MLP" && <div className="underline-2"></div>}
             </div>
-            <div onClick={() => setCategory("Software")}>
+            <div onClick={() => setCategory("Interior")}>
               <h2>Interior</h2>
-              {category === "Software" && <div className="underline-2"></div>}
+              {category === "Interior" && <div className="underline-2"></div>}
             </div>
-            <div onClick={() => setCategory("Arch")}>
+            <div onClick={() => setCategory("Facades")}>
               <h2>Facades</h2>
-              {category === "Arch" && <div className="underline-2"></div>}
+              {category === "Facades" && <div className="underline-2"></div>}
             </div>
           </div>
         </div>

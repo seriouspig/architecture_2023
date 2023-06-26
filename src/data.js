@@ -96,21 +96,21 @@ import BH_nantong_7 from "./assets/images/arch/BH_nantong/BH_nantong_7.jpeg";
 
 
 export const pageLinks = [
-  {
-    id: 1,
-    url: "/",
-    text: "home",
-  },
-  {
-    id: 2,
-    url: "/about",
-    text: "about",
-  },
-  {
-    id: 3,
-    url: "/portfolio",
-    text: "contact",
-  },
+  // {
+  //   id: 1,
+  //   url: "/",
+  //   text: "home",
+  // },
+  // {
+  //   id: 2,
+  //   url: "/about",
+  //   text: "about",
+  // },
+  // {
+  //   id: 3,
+  //   url: "/portfolio",
+  //   text: "contact",
+  // },
 ];
 
 export const socialLinks = [
@@ -136,9 +136,9 @@ export const projects = [
     id: 1,
     url: "https://seriouspig.itch.io/id-efencder",
     image: JC_1_view_1,
-    title: "Id-efender",
-    info: "A solo project developed as part of my Game Development Course at Edinburgh College. A spin on the 1981 Atari’s classic “Defender”.",
-    category: "Games",
+    title: "Tendrills Office Tower, China",
+    info: "A mixed use development with a high rise office tower for Jiang Architects in Shanghai. Sketchup 3D + Enscape",
+    category: "Facades",
     images: [
       {
         original: JC_1_view_1,
@@ -174,9 +174,9 @@ export const projects = [
     id: 2,
     url: "https://millionaires-c4191.web.app",
     image: JC_library_view_1,
-    title: "Millionaires",
-    info: "Group project developed during the CodeClan boot camp course. Based on the TV show – 'Who wants to be a millionaire'.",
-    category: "Software",
+    title: "Library Competition - Shenzhen, China",
+    info: "A library competition developed for Jiang Architects in Shanghai. Sketchup 3D + Enscape",
+    category: "Interior",
     images: [
       {
         original: JC_library_view_1,
@@ -193,9 +193,9 @@ export const projects = [
     id: 4,
     url: "https://madbatgames.itch.io/grooooarr",
     image: JC_airport_view_5,
-    title: "GROOOOARR",
-    info: "Another entry for the itch.io Nokia 3310 game jam. Interesting enemy AI. A full-res version for mobile devces is in the works",
-    category: "Games",
+    title: "Airport Roof Design - China",
+    info: "An Airport Terminal Roof desing developed for Jiang Architects in Shanghai. Sketchup 3D + Enscape",
+    category: "Interior",
     images: [
       {
         original: JC_airport_view_1,
@@ -218,9 +218,9 @@ export const projects = [
     id: 5,
     url: "https://seriouspig.itch.io/they-keep-coming",
     image: JC_chimney_1,
-    title: "THEY KEEP COMING",
-    info: "A simple game developed for the itch.io Nokia 3310 game jam. The game achieved 10th place out of almost 400 entries. ",
-    category: "Games",
+    title: "Chimney Renovation - Shanghai, China",
+    info: "A renovation of an old chimney on the river bank in Shanghai. Developed for Jiang Architects in Shanghai. Sketchup 3D + Enscape",
+    category: "Facades",
     images: [
       {
         original: JC_chimney_1,
@@ -243,9 +243,9 @@ export const projects = [
     id: 6,
     url: "https://github.com/seriouspig/Dungeon-Master",
     image: JC_2_view_1,
-    title: "DUNGEON MASTER 2D",
-    info: "A simple remake of the old DOS classic - Dungeon Master. All done in Vanilla Javascript. A full 3d version using Three.js is in the works",
-    category: "Games",
+    title: "Poly Tower, Ningbo",
+    info: "Office Tower development for Jiang Architects in Shanghai. Sketchup 3D + Photoshop",
+    category: "Facades",
     images: [
       {
         original: JC_2_view_1,
@@ -268,9 +268,9 @@ export const projects = [
     id: 3,
     url: "https://the-ward-c50f7.web.app/",
     image: BH_1_view_1,
-    title: "THE WARD",
-    info: "Final group project at CodeClan, developed using React.js and Java SpringBoot. Inspired by Bullfrog’s 1997 hit Theme Hospital",
-    category: "Games",
+    title: "Mixed Use Development in Changzhou",
+    info: "Mixed use development including a shopping mall and residential quarter in Changzhou, China. Developed for B+H Architects, Shanghai. Sketchup 3D + VRAY",
+    category: "MLP",
     images: [
       {
         original: BH_1_view_1,
@@ -296,9 +296,9 @@ export const projects = [
     id: 7,
     url: "https://dungeon-crawler-piotr.netlify.app",
     image: JC_web1_view_1,
-    title: "DUNGEON MASTER 3D",
-    info: "A horror spin on the dungeon crawler genre. Full 3D using Three.js framework",
-    category: "Games",
+    title: "Zhongshan WANGU Industry Park Project",
+    info: "A mixed use renovation project in Zhongshan, China. Developed for Jiang Architects in Shanghai. Sketchup 3D + VRAY",
+    category: "MLP",
     images: [
       {
         original: JC_web1_view_1,
@@ -318,9 +318,9 @@ export const projects = [
     id: 8,
     url: "https://seriouspig.itch.io/id-efencder",
     image: JC_web2_view_1,
-    title: "JC_web2",
-    info: "A solo project developed as part of my Game Development Course at Edinburgh College. A spin on the 1981 Atari’s classic “Defender”.",
-    category: "Games",
+    title: "Meizhou City Service Center of Global Tourism",
+    info: "A Tourist Center developed for Meizhou City, China. Developed for Jiang Architects in Shanghai. Sketchup 3D + VRAY",
+    category: "MLP",
     images: [
       {
         original: JC_web2_view_1,
@@ -340,9 +340,9 @@ export const projects = [
     id: 9,
     url: "https://millionaires-c4191.web.app",
     image: JC_web3_view_1,
-    title: "JC_web3",
-    info: "Group project developed during the CodeClan boot camp course. Based on the TV show – 'Who wants to be a millionaire'.",
-    category: "Software",
+    title: "Commercial Center Project, Fengcheng, Shanghai",
+    info: "A Retail Masterplan Project for Fengcheng district in Shanghai, China. Developed for Jiang Architects in Shanghai. Sketchup 3D + VRAY",
+    category: "MLP",
     images: [
       {
         original: JC_web3_view_1,
@@ -359,9 +359,9 @@ export const projects = [
     id: 10,
     url: "https://madbatgames.itch.io/grooooarr",
     image: JC_linkong_1,
-    title: "JC_Linkong",
-    info: "Another entry for the itch.io Nokia 3310 game jam. Interesting enemy AI. A full-res version for mobile devces is in the works",
-    category: "Games",
+    title: "Office Park Competition, Linkong",
+    info: "Competition for an Office Park Development in Linkong, China. Developed for Jiang Architects in Shanghai. Sketchup 3D + VRAY",
+    category: "Facades",
     images: [
       {
         original: JC_linkong_1,
@@ -390,9 +390,9 @@ export const projects = [
     id: 11,
     url: "https://seriouspig.itch.io/they-keep-coming",
     image: TOT_mayor_1,
-    title: "TOT_mayor",
-    info: "A simple game developed for the itch.io Nokia 3310 game jam. The game achieved 10th place out of almost 400 entries. ",
-    category: "Games",
+    title: "Mayor Street Development, Dublin",
+    info: "A masterplan for mixed use development on Mayor Street in Dublin, Ireland. Developed for TOT Architects in Dublin. Sketchup + VRAY",
+    category: "MLP",
     images: [
       {
         original: TOT_mayor_1,
@@ -418,9 +418,9 @@ export const projects = [
     id: 12,
     url: "https://github.com/seriouspig/Dungeon-Master",
     image: TOT_museum_1,
-    title: "TOT_museum",
-    info: "A simple remake of the old DOS classic - Dungeon Master. All done in Vanilla Javascript. A full 3d version using Three.js is in the works",
-    category: "Games",
+    title: "Museum of War, Poland",
+    info: "Compatition for a Museum of War in Krakow, Poland. Developed for TOT Architects in Dublin. Sketchup + VRAY",
+    category: "Interior",
     images: [
       {
         original: TOT_museum_1,
@@ -449,9 +449,9 @@ export const projects = [
     id: 13,
     url: "https://the-ward-c50f7.web.app/",
     image: TOT_tip_1,
-    title: "TOT_Tipperary",
-    info: "Final group project at CodeClan, developed using React.js and Java SpringBoot. Inspired by Bullfrog’s 1997 hit Theme Hospital",
-    category: "Games",
+    title: "Tipperary Town Council",
+    info: "Development for new offices of the Town Council in Tipperary, Ireland. Developed for TOT Architects in Dublin. Sketchup + VRAY ",
+    category: "Interior",
     images: [
       {
         original: TOT_tip_1,
@@ -489,9 +489,9 @@ export const projects = [
     id: 14,
     url: "https://dungeon-crawler-piotr.netlify.app",
     image: BH_nantong_1,
-    title: "BH_nantong",
-    info: "A horror spin on the dungeon crawler genre. Full 3D using Three.js framework",
-    category: "Games",
+    title: "Nantong InCity",
+    info: "Mixed use Development including office tower, shopping mall and residentail quarter. Developed for B+H Architects, Shanghai. Sketchup + VRAY",
+    category: "Facades",
     images: [
       {
         original: BH_nantong_1,
