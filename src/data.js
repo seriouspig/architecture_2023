@@ -1,12 +1,5 @@
 import React from "react";
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
-import millionaires_img from "./assets/images/projects/wwtbam.png";
-import grooooaar_img from "./assets/images/projects/grooooaar.gif";
-import they_keep_coming_img from "./assets/images/projects/theykeepcoming.gif";
-import idefender_img from "./assets/images/projects/idefender.gif";
-import threejs from "./assets/images/projects/threejs.gif";
-import ward_img from "./assets/images/projects/theward.png";
-import dungeon_master from "./assets/images/projects/dungeonmaster.png";
 
 import JC_1_view_1 from "./assets/images/arch/JC_tower_1/JC_1_view_1.jpeg";
 import JC_1_view_2 from "./assets/images/arch/JC_tower_1/JC_1_view_2.jpeg";
@@ -66,6 +59,40 @@ import JC_linkong_4 from "./assets/images/arch/JC_linkong/JC_linkong_4.jpeg";
 import JC_linkong_5 from "./assets/images/arch/JC_linkong/JC_linkong_5.jpeg";
 import JC_linkong_7 from "./assets/images/arch/JC_linkong/JC_linkong_7.jpeg";
 import JC_linkong_8 from "./assets/images/arch/JC_linkong/JC_linkong_8.jpeg";
+
+import TOT_mayor_1 from "./assets/images/arch/TOT_mayor/TOT_mayor_1.jpeg";
+import TOT_mayor_2 from "./assets/images/arch/TOT_mayor/TOT_mayor_2.jpeg";
+import TOT_mayor_3 from "./assets/images/arch/TOT_mayor/TOT_mayor_3.jpeg";
+import TOT_mayor_4 from "./assets/images/arch/TOT_mayor/TOT_mayor_4.jpeg";
+import TOT_mayor_5 from "./assets/images/arch/TOT_mayor/TOT_mayor_5.jpeg";
+import TOT_mayor_6 from "./assets/images/arch/TOT_mayor/TOT_mayor_6.jpeg";
+
+import TOT_museum_1 from "./assets/images/arch/TOT_museum/TOT_museum_1.jpeg";
+import TOT_museum_2 from "./assets/images/arch/TOT_museum/TOT_museum_2.jpeg";
+import TOT_museum_3 from "./assets/images/arch/TOT_museum/TOT_museum_3.jpeg";
+import TOT_museum_4 from "./assets/images/arch/TOT_museum/TOT_museum_4.jpeg";
+import TOT_museum_5 from "./assets/images/arch/TOT_museum/TOT_museum_5.jpeg";
+import TOT_museum_6 from "./assets/images/arch/TOT_museum/TOT_museum_6.jpeg";
+import TOT_museum_7 from "./assets/images/arch/TOT_museum/TOT_museum_7.jpeg";
+
+import TOT_tip_1 from "./assets/images/arch/TOT_tip/TOT_tip_1.jpeg";
+import TOT_tip_2 from "./assets/images/arch/TOT_tip/TOT_tip_2.jpeg";
+import TOT_tip_3 from "./assets/images/arch/TOT_tip/TOT_tip_3.jpeg";
+import TOT_tip_4 from "./assets/images/arch/TOT_tip/TOT_tip_4.jpeg";
+import TOT_tip_5 from "./assets/images/arch/TOT_tip/TOT_tip_5.jpeg";
+import TOT_tip_6 from "./assets/images/arch/TOT_tip/TOT_tip_6.jpeg";
+import TOT_tip_7 from "./assets/images/arch/TOT_tip/TOT_tip_7.jpeg";
+import TOT_tip_8 from "./assets/images/arch/TOT_tip/TOT_tip_8.jpeg";
+import TOT_tip_9 from "./assets/images/arch/TOT_tip/TOT_tip_9.jpeg";
+import TOT_tip_10 from "./assets/images/arch/TOT_tip/TOT_tip_10.jpeg";
+
+import BH_nantong_1 from "./assets/images/arch/BH_nantong/BH_nantong_1.jpeg";
+import BH_nantong_2 from "./assets/images/arch/BH_nantong/BH_nantong_2.jpeg";
+import BH_nantong_3 from "./assets/images/arch/BH_nantong/BH_nantong_3.jpeg";
+import BH_nantong_4 from "./assets/images/arch/BH_nantong/BH_nantong_4.jpeg";
+import BH_nantong_5 from "./assets/images/arch/BH_nantong/BH_nantong_5.jpeg";
+import BH_nantong_6 from "./assets/images/arch/BH_nantong/BH_nantong_6.jpeg";
+import BH_nantong_7 from "./assets/images/arch/BH_nantong/BH_nantong_7.jpeg";
 
 
 export const pageLinks = [
@@ -362,33 +389,131 @@ export const projects = [
   {
     id: 11,
     url: "https://seriouspig.itch.io/they-keep-coming",
-    image: they_keep_coming_img,
-    title: "THEY KEEP COMING",
+    image: TOT_mayor_1,
+    title: "TOT_mayor",
     info: "A simple game developed for the itch.io Nokia 3310 game jam. The game achieved 10th place out of almost 400 entries. ",
     category: "Games",
+    images: [
+      {
+        original: TOT_mayor_1,
+      },
+      {
+        original: TOT_mayor_2,
+      },
+      {
+        original: TOT_mayor_3,
+      },
+      {
+        original: TOT_mayor_4,
+      },
+      {
+        original: TOT_mayor_5,
+      },
+      {
+        original: TOT_mayor_6,
+      },
+    ],
   },
   {
     id: 12,
     url: "https://github.com/seriouspig/Dungeon-Master",
-    image: dungeon_master,
-    title: "DUNGEON MASTER 2D",
+    image: TOT_museum_1,
+    title: "TOT_museum",
     info: "A simple remake of the old DOS classic - Dungeon Master. All done in Vanilla Javascript. A full 3d version using Three.js is in the works",
     category: "Games",
+    images: [
+      {
+        original: TOT_museum_1,
+      },
+      {
+        original: TOT_museum_2,
+      },
+      {
+        original: TOT_museum_3,
+      },
+      {
+        original: TOT_museum_4,
+      },
+      {
+        original: TOT_museum_5,
+      },
+      {
+        original: TOT_museum_6,
+      },
+      {
+        original: TOT_museum_7,
+      },
+    ],
   },
   {
     id: 13,
     url: "https://the-ward-c50f7.web.app/",
-    image: ward_img,
-    title: "THE WARD",
+    image: TOT_tip_1,
+    title: "TOT_Tipperary",
     info: "Final group project at CodeClan, developed using React.js and Java SpringBoot. Inspired by Bullfrog’s 1997 hit Theme Hospital",
     category: "Games",
+    images: [
+      {
+        original: TOT_tip_1,
+      },
+      {
+        original: TOT_tip_2,
+      },
+      {
+        original: TOT_tip_3,
+      },
+      {
+        original: TOT_tip_4,
+      },
+      {
+        original: TOT_tip_5,
+      },
+      {
+        original: TOT_tip_6,
+      },
+      {
+        original: TOT_tip_7,
+      },
+      {
+        original: TOT_tip_8,
+      },
+      {
+        original: TOT_tip_9,
+      },
+      {
+        original: TOT_tip_10,
+      },
+    ],
   },
   {
     id: 14,
     url: "https://dungeon-crawler-piotr.netlify.app",
-    image: threejs,
-    title: "DUNGEON MASTER 3D",
+    image: BH_nantong_1,
+    title: "BH_nantong",
     info: "A horror spin on the dungeon crawler genre. Full 3D using Three.js framework",
     category: "Games",
+    images: [
+      {
+        original: BH_nantong_1,
+      },
+      {
+        original: BH_nantong_2,
+      },
+      {
+        original: BH_nantong_3,
+      },
+      {
+        original: BH_nantong_4,
+      },
+      {
+        original: BH_nantong_5,
+      },
+      {
+        original: BH_nantong_6,
+      },
+      {
+        original: BH_nantong_7,
+      },
+    ],
   },
 ];
